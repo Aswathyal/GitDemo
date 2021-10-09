@@ -28,7 +28,10 @@ public class GoogleAssertTest {
 	  Assert.assertEquals(driver.getTitle(), "Google");
 	  Boolean a=driver.findElement(By.linkText("Gmail")).isDisplayed();
 	  if(a)
+	  {
 		  System.out.println("Gmail is present");
+		  System.out.println("P1 git changes");
+	  }
 	  else
 		  System.out.println("Gmail is not present");
   }
