@@ -32,6 +32,7 @@ public class GoogleAssertTest {
 		  System.out.println("Gmail is present");
 		  System.out.println("P1 git changes");
 		  System.out.println("P1 git develop");
+		  System.out.println("P gitdemo develop");
 	  }
 	  else
 		  System.out.println("Gmail is not present");
